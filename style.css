@@ -1,86 +1,114 @@
-
 *{
-    text-decoration: none;
     padding: 0;
     margin: 0;
-}
-h2{
-    font-family: 'Cooper black';
-    font-weight: 600;
-    font-size: 25px;
-    text-align: center;
-    margin-top: 10px;
+    text-decoration: none;
 }
 
-h5{
-    font-family: 'Cooper black';
-    font-weight: 600;
-    font-size: 25px;
-    text-align: center;  
-}
-
-p{
-    margin: 10px;
-    padding: 10px;
-    /* font-family: 'Cooper black'; */
-}
-
-.Drafting > img{
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-h1{
-    text-align: center;
-    margin-top: 0;
-    font-family: 'Cooper black';
-}
-.Orig > img{
-    display: block;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    margin-top: 10px;
-    margin-bottom: 0px;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding-top: 30px;
-    min-height: 70px;
-    border-bottom: #e74c3c 3px solid;
-}
-
-.navlinks{
-    display: flex; 
-    align-items: center; 
-    justify-content: space-between;
-    margin-bottom: 20px;
-    margin-top: 10px;
+.header{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-underwater-landscape-with-fish-corals_1268-31465.jpg?size=626&ext=jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+       
 }
 
 .logo a{
-    font-size: 25px; 
-    font-weight: 800; 
+    font-size: 60px;
+    font-weight: bold; 
     color: white;
-    font-family: 'Cooper black';
+}
+
+.navbar{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.navlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 li{
-    list-style: none; 
+    list-style: none;
     display: inline-block;
 }
 
 li a{
-    color: white; 
-    font-size: 16px; 
-    font-weight: bold; 
-    margin-right: 15px; 
-    font-family: 'Cooper black';
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+}
+
+.hero{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h1{
+    font-size: 3em;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+.hero p{
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.hero button{
+    background-color: #00796B;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    cursor: pointer;
+    text-shadow: none;
+    padding: 15px 30px;
+}
+
+.hero button:hover{
+    background-color: #004d40;
+}
+
+#container{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    margin: 10px 15px;
+    padding: auto;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.circulardiv{
+    width: 200px;;
+    border: 2px sloid black;
+    border-radius: 50%;
+    padding-top: 60px;
+    padding-left: 15%;
+}
+
+.circulardiv img{
+    width: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+#container p{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.benefit{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .aboutus{
@@ -93,7 +121,7 @@ li a{
     font-size: 7svb;
     font-weight: 600;
     font-family: 'Cooper black';
-    color: #14213D;
+    color: black;
 }
 
 .aboutus p{
@@ -106,24 +134,30 @@ li a{
     padding-bottom: 20px;
 }
 
+
 .footer{
     width: 100%;
     text-align: center;
-    padding: 10px 0;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
 
 .footer p{
     font-size: medium;
     font-family: 'Cooper black';
     color: #14213D;
+    padding-bottom: 20px;
     text-align: center;
-    margin: 5px;
-    padding: 0px;
 }
 
 .icons .fa{
     color: #14213D;
-    margin: 0px;
+    margin: 0 13px;
     cursor: pointer;
     padding: 18px;
 
@@ -132,10 +166,6 @@ li a{
 .fa-heart-o{
     color: #14213D;
 
-}
-
-.footer a{
-    color: #14213D;
 }
 
 .footer a{
