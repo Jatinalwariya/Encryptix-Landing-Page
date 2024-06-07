@@ -5,11 +5,15 @@
 }
 
 .header{
-    background-image: url(https://img.freepik.com/free-photo/beautiful-underwater-landscape-with-fish-corals_1268-31465.jpg?size=626&ext=jpg);
+    background: rgba(0,0,0,.1);
+}
+
+body{
+    background: url(https://img.freepik.com/free-photo/beautiful-underwater-landscape-with-fish-corals_1268-31465.jpg?size=626&ext=jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     height: 100vh;
     width: 100%;
-       
 }
 
 .logo a{
@@ -38,6 +42,22 @@ li a{
     font-weight: bold;
     color: white;
     margin: 15px;
+    position: relative;
+}
+
+li a::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0%;
+    height: 3px;
+    background-color: black;
+    transition: all .5s;
+}
+
+li a:hover::before{
+    width: 100%;
 }
 
 .hero{
@@ -74,15 +94,29 @@ li a{
     background-color: #004d40;
 }
 
+.heading{
+    text-align: center;
+    padding-bottom: 5px;
+    font-family: 'Cooper black';
+}
+
+.heading h1{
+    margin-top: 60px;
+    font-size: 45px;
+}
+
+.heading h4{
+    font-size: 30px;
+}
+
 #container{
-    height: 400px;
+    height: 600px;
     width: 300px;
     background-color: white;
     margin: 10px 15px;
     padding: auto;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 .circulardiv{
@@ -104,7 +138,6 @@ li a{
     font-size: 20px;
 }
 
-
 .benefit{
     display: flex;
     align-items: center;
@@ -115,8 +148,9 @@ li a{
     width: 80%;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 120px;
 }
+
 .aboutus h1{
     font-size: 7svb;
     font-weight: 600;
@@ -133,7 +167,6 @@ li a{
     font-family: 'Cooper black';
     padding-bottom: 20px;
 }
-
 
 .footer{
     width: 100%;
@@ -157,7 +190,7 @@ li a{
 
 .icons .fa{
     color: #14213D;
-    margin: 0 13px;
+    margin: 0 8px;
     cursor: pointer;
     padding: 18px;
 
