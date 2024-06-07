@@ -1,0 +1,143 @@
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-family: 'Cooper black';
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+h5{
+    font-family: 'Cooper black';
+    font-weight: 600;
+    font-size: 25px;
+    text-align: center;  
+}
+
+p{
+    margin: 10px;
+    padding: 10px;
+    /* font-family: 'Cooper black'; */
+}
+
+.Drafting > img{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+h1{
+    text-align: center;
+    margin-top: 0;
+    font-family: 'Cooper black';
+}
+.Orig > img{
+    display: block;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e74c3c 3px solid;
+}
+
+.navlinks{
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.logo a{
+    font-size: 25px; 
+    font-weight: 800; 
+    color: white;
+    font-family: 'Cooper black';
+}
+
+li{
+    list-style: none; 
+    display: inline-block;
+}
+
+li a{
+    color: white; 
+    font-size: 16px; 
+    font-weight: bold; 
+    margin-right: 15px; 
+    font-family: 'Cooper black';
+}
+
+.aboutus{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+.aboutus h1{
+    font-size: 7svb;
+    font-weight: 600;
+    font-family: 'Cooper black';
+    color: #14213D;
+}
+
+.aboutus p{
+    color: #14213D;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+    font-family: 'Cooper black';
+    padding-bottom: 20px;
+}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer p{
+    font-size: medium;
+    font-family: 'Cooper black';
+    color: #14213D;
+    text-align: center;
+    margin: 5px;
+    padding: 0px;
+}
+
+.icons .fa{
+    color: #14213D;
+    margin: 0px;
+    cursor: pointer;
+    padding: 18px;
+
+}
+
+.fa-heart-o{
+    color: #14213D;
+
+}
+
+.footer a{
+    color: #14213D;
+}
+
+.footer a{
+    color: #14213D;
+}
